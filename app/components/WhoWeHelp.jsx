@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhoWeHelp = () => {
   return (
-    <section className="w-full px-8 md:pl-[6vw] lg:px-[8vw] py-24 md:py-32" style={{ backgroundColor: "var(--bg-primary)" }}>
+    <section className="w-full px-8 md:pl-[6vw] lg:px-[8vw] py-16 md:py-24 lg:py-32" style={{ backgroundColor: "var(--bg-primary)" }}>
       {/* Heading */}
       <h2 className="font-serif leading-[1.2] mb-16 md:mb-24 lg:w-[45%]"
           style={{ fontSize: "clamp(2.2rem, 3.2vw, 4.8rem)", color: "var(--bg-dark)" }}>
@@ -18,7 +18,7 @@ const WhoWeHelp = () => {
         
         {/* Column 1 */}
         <div className="flex flex-col">
-          <div className="relative w-full h-[60vh] aspect-square bg-gray-100 overflow-hidden rounded-lg">
+          <div className="relative w-full aspect-[4/5] lg:aspect-square bg-gray-100 overflow-hidden rounded-lg">
             <img 
               src="https://imageio.forbes.com/specials-images/imageserve/6687fc38b3cadb73515dc071/A-Frustrated-Beautiful-Asian-Businesswoman-With-Glasses-Using-Her-Computer-While/0x0.jpg" 
               alt="Professional looking out" 
@@ -34,7 +34,7 @@ const WhoWeHelp = () => {
 
         {/* Column 2 */}
         <div className="flex flex-col">
-          <div className="relative w-full h-[60vh] aspect-square bg-gray-100 overflow-hidden rounded-lg">
+          <div className="relative w-full aspect-[4/5] lg:aspect-square bg-gray-100 overflow-hidden rounded-lg">
             <img 
               src="https://cdn.openviowebsites.com/source/sites/90188310-0e23-4951-be7e-3c9938c250e9/images/stress-burnout-therapy-thumb.webp" 
               alt="Burnout and stress" 
@@ -50,7 +50,7 @@ const WhoWeHelp = () => {
 
         {/* Column 3 */}
         <div className="flex flex-col">
-          <div className="relative w-full h-[60vh] aspect-square bg-gray-100 overflow-hidden rounded-lg">
+          <div className="relative w-full aspect-[4/5] lg:aspect-square bg-gray-100 overflow-hidden rounded-lg">
             <img 
               src="https://familystrongcounseling.com/wp-content/uploads/2025/09/portrait-young-woman-with-low-self-esteem-sitting-by-window-home-1.jpg" 
               alt="Trauma healing" 

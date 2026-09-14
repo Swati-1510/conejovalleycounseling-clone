@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurOffice = () => {
   return (
-    <section id="office" className="w-full px-8 md:pl-[6vw] lg:px-[8vw] py-24 md:py-32 flex flex-col items-center" style={{ backgroundColor: "var(--bg-primary)" }}>
+    <section id="office" className="w-full px-8 md:pl-[6vw] lg:px-[8vw] py-16 md:py-24 lg:py-32 flex flex-col items-center" style={{ backgroundColor: "var(--bg-primary)" }}>
       
       {/* Header Block */}
       <div className="w-full max-w-4xl text-center flex flex-col items-center mb-16 lg:mb-24">
@@ -19,10 +19,10 @@ const OurOffice = () => {
 
       {/* Image Gallery */}
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 mb-20 lg:mb-28">
-        <div className="w-full h-[40vh] md:h-[50vh] lg:h-[65vh] overflow-hidden rounded-lg">
+        <div className="w-full h-[30vh] md:h-[50vh] lg:h-[65vh] overflow-hidden rounded-lg">
           <img src="/images/office1.jpg" alt="Santa Monica Therapy Office Space" className="w-full h-full object-cover" />
         </div>
-        <div className="w-full h-[40vh] md:h-[50vh] lg:h-[65vh] overflow-hidden rounded-lg">
+        <div className="w-full h-[30vh] md:h-[50vh] lg:h-[65vh] overflow-hidden rounded-lg">
           <img src="/images/office2.jpg" alt="Comfortable seating and natural light in therapy office" className="w-full h-full object-cover" />
         </div>
       </div>

@@ -57,12 +57,12 @@ export default function Hero() {
       </div>
 
       {/* Right peeking image */}
-      <div className="hidden lg:flex flex-col w-48 xl:w-32 shrink-0">
-        <div className="h-[36%]" style={{ backgroundColor: "var(--bg-primary)" }} />
+      <div className="flex flex-col w-full lg:w-48 xl:w-32 shrink-0 mt-8 lg:mt-0 h-[40vh] lg:h-auto">
+        <div className="hidden lg:block h-[36%]" style={{ backgroundColor: "var(--bg-primary)" }} />
         <img
           src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
           alt="Sunlit neutral space"
-          className="w-full flex-1 object-cover object-center rounded-lg md:rounded-l-lg md:rounded-r-none"
+          className="w-full flex-1 object-cover object-center rounded-lg lg:rounded-l-lg lg:rounded-r-none"
         />
       </div>
 

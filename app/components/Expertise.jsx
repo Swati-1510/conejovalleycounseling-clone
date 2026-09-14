@@ -11,7 +11,7 @@ const Expertise = () => {
   ];
 
   return (
-    <section className="w-full px-8 md:pl-[6vw] lg:pl-[9vw] lg:pr-[15vw] py-24 md:py-32 flex flex-col md:flex-row gap-16 md:gap-12 lg:gap-2" style={{ backgroundColor: "var(--bg-primary)" }}>
+    <section className="w-full px-8 md:pl-[6vw] lg:pl-[9vw] lg:pr-[15vw] py-16 md:py-24 lg:py-32 flex flex-col md:flex-row gap-16 md:gap-12 lg:gap-2" style={{ backgroundColor: "var(--bg-primary)" }}>
       
       {/* Left Column - Heading */}
       <div className="w-full md:w-[35%] lg:w-[34%] shrink-0">
