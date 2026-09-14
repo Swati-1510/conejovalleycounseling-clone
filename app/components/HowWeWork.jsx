@@ -18,6 +18,15 @@ const HowWeWork = () => {
           A Warm, Grounded & Collaborative Approach to Healing
         </h2>
 
+        {/* Mobile Image */}
+        <div className="block lg:hidden w-full h-[30vh] md:h-[40vh] mb-12 md:mb-16">
+          <img 
+            src="https://thumbs.dreamstime.com/b/wooden-desk-sunlit-window-open-book-houseplants-shelves-books-warm-decor-cozy-home-study-reading-nook-interior-396691561.jpg" 
+            alt="Desk workspace with laptop and notebook" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+
         {/* 2 Column Text */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 lg:gap-8 xl:gap-8 mb-12 md:mb-26">
           {/* Column 1 */}
@@ -49,7 +58,7 @@ const HowWeWork = () => {
         </a>
       </div>
 
-      <div className="w-full lg:w-[22.5%] h-[60vh] lg:h-auto pt-12 lg:pt-33 pb-49">
+      <div className="hidden lg:block w-full lg:w-[22.5%] h-[60vh] lg:h-auto pt-12 lg:pt-33 pb-49">
         <img 
           src="https://thumbs.dreamstime.com/b/wooden-desk-sunlit-window-open-book-houseplants-shelves-books-warm-decor-cozy-home-study-reading-nook-interior-396691561.jpg" 
           alt="Desk workspace with laptop and notebook" 

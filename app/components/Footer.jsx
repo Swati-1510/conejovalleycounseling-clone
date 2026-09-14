@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="w-full px-8 md:pl-[6vw] lg:px-[8vw] pt-20 md:pt-24 pb-12 md:pb-20 flex flex-col lg:flex-row justify-between">
         
         {/* Logo & Description */}
-        <div className="flex flex-col lg:w-[35%] lg:max-w-[420px] lg:pr-8 mb-16 lg:mb-0 shrink-0">
-          <a href="/" className="flex flex-col">
-            <span className="font-serif text-[1.4rem] md:text-[1.8rem] font-normal leading-tight tracking-wide" style={{ color: "var(--color-primary)" }}>
+        <div className="flex flex-col items-center lg:items-start text-center lg:text-left lg:w-[35%] lg:max-w-[420px] lg:pr-8 mb-16 lg:mb-0 shrink-0">
+          <a href="/" className="flex flex-col items-center lg:items-start">
+            <span className="font-serif text-[2.2rem] md:text-[2.5rem] font-normal leading-tight tracking-wide" style={{ color: "var(--color-primary)" }}>
               Dr. Maya Reynolds, PsyD
             </span>
             <span className="font-sans text-[0.7rem] md:text-[0.9rem] uppercase tracking-[0.3em] mt-1 mb-4" style={{ color: "var(--text-muted)" }}>

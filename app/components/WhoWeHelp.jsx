@@ -18,14 +18,14 @@ const WhoWeHelp = () => {
         
         {/* Column 1 */}
         <div className="flex flex-col">
-          <div className="relative w-full aspect-[4/5] lg:aspect-square bg-gray-100 overflow-hidden rounded-lg">
+          <div className="relative w-full aspect-[3/2] lg:aspect-square bg-gray-100 overflow-hidden rounded-lg">
             <img 
               src="https://imageio.forbes.com/specials-images/imageserve/6687fc38b3cadb73515dc071/A-Frustrated-Beautiful-Asian-Businesswoman-With-Glasses-Using-Her-Computer-While/0x0.jpg" 
               alt="Professional looking out" 
               className="absolute inset-0 w-full h-full object-cover" 
             />
           </div>
-          <h3 className="font-serif text-[1.79rem] mt-15" style={{ color: "var(--color-primary)" }}>Overthinking Professionals</h3>
+          <h3 className="font-serif text-[1.4rem] md:text-[1.79rem] mt-6 lg:mt-10" style={{ color: "var(--color-primary)" }}>Overthinking Professionals</h3>
           <p className="font-sans font-light text-[15px] md:text-[17px] leading-[1.6] mt-2" 
              style={{ color: "var(--text-main)" }}>
             Feeling functional on the outside while quietly struggling with constant worry, panic, or a sense that you're always bracing for something to go wrong.
@@ -34,14 +34,14 @@ const WhoWeHelp = () => {
 
         {/* Column 2 */}
         <div className="flex flex-col">
-          <div className="relative w-full aspect-[4/5] lg:aspect-square bg-gray-100 overflow-hidden rounded-lg">
+          <div className="relative w-full aspect-[3/2] lg:aspect-square bg-gray-100 overflow-hidden rounded-lg">
             <img 
               src="https://cdn.openviowebsites.com/source/sites/90188310-0e23-4951-be7e-3c9938c250e9/images/stress-burnout-therapy-thumb.webp" 
               alt="Burnout and stress" 
               className="absolute inset-0 w-full h-full object-cover" 
             />
           </div>
-          <h3 className="font-serif text-[1.79rem] mt-15" style={{ color: "var(--color-primary)" }}>Burnout & Stress Recovery</h3>
+          <h3 className="font-serif text-[1.4rem] md:text-[1.79rem] mt-6 lg:mt-10" style={{ color: "var(--color-primary)" }}>Burnout & Stress Recovery</h3>
           <p className="font-sans font-light text-[15px] md:text-[17px] leading-[1.6] mt-2" 
              style={{ color: "var(--text-main)" }}>
             Designed for entrepreneurs, creatives, and high-achieving adults exhausted by internal pressure, perfectionism, and high-stress environments.
@@ -50,14 +50,14 @@ const WhoWeHelp = () => {
 
         {/* Column 3 */}
         <div className="flex flex-col">
-          <div className="relative w-full aspect-[4/5] lg:aspect-square bg-gray-100 overflow-hidden rounded-lg">
+          <div className="relative w-full aspect-[3/2] lg:aspect-square bg-gray-100 overflow-hidden rounded-lg">
             <img 
               src="https://familystrongcounseling.com/wp-content/uploads/2025/09/portrait-young-woman-with-low-self-esteem-sitting-by-window-home-1.jpg" 
               alt="Trauma healing" 
               className="absolute inset-0 w-full h-full object-cover" 
             />
           </div>
-          <h3 className="font-serif text-[1.79rem] mt-15" style={{ color: "var(--color-primary)" }}>Trauma & Past Experiences</h3>
+          <h3 className="font-serif text-[1.4rem] md:text-[1.79rem] mt-6 lg:mt-10" style={{ color: "var(--color-primary)" }}>Trauma & Past Experiences</h3>
           <p className="font-sans font-light text-[15px] md:text-[17px] leading-[1.6] mt-2" 
              style={{ color: "var(--text-main)" }}>
             Support for navigating single-incident trauma or long-standing patterns from childhood that continue to affect your confidence and safety today.

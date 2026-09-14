@@ -15,7 +15,7 @@ const Expertise = () => {
       
       {/* Left Column - Heading */}
       <div className="w-full md:w-[35%] lg:w-[34%] shrink-0">
-        <h2 className="font-serif leading-[1.2] mb-4" style={{ fontSize: "clamp(2.2rem, 3.2vw, 4.8rem)", color: "var(--bg-dark)" }}>
+        <h2 className="font-serif leading-[1.2] mb-8" style={{ fontSize: "clamp(2.2rem, 3.2vw, 4.8rem)", color: "var(--bg-dark)" }}>
           Areas of<br />
           <em className="font-serif italic font-normal" style={{ color: "var(--color-accent)", fontStyle: "italic" }}>
             Focus
@@ -29,10 +29,7 @@ const Expertise = () => {
           {expertiseItems.map((item, index) => (
             <div 
               key={index}
-              className={`py-7 flex items-center cursor-pointer ${
-                index < expertiseItems.length - 2 ? 'border-b' : ''
-              }`}
-              style={{ borderColor: index < expertiseItems.length - 2 ? "rgba(43, 45, 47, 0.15)" : "transparent" }}
+              className="py-5 md:py-7 flex items-center cursor-pointer border-b border-[rgba(43,45,47,0.08)] last:border-b-0 md:[&:nth-last-child(2)]:border-b-0"
             >
               <span className="uppercase tracking-widest text-[0.875rem] font-sans font-medium"
                     style={{ color: "var(--bg-dark)" }}>

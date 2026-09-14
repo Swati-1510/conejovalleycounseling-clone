@@ -39,11 +39,11 @@ const Specialties = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10 lg:gap-y-14">
           {specialtiesList.map((item, index) => (
             <div key={index} className="flex flex-col h-full">
-              <h3 className="font-serif font-light text-[1.6rem] lg:text-[1.9rem] mb-6"
+              <h3 className="font-serif font-light text-[1.4rem] lg:text-[1.9rem] mb-4"
                   style={{ color: "var(--bg-dark)" }}>
                 {item.title}
               </h3>
-              <p className="font-sans font-light text-[14px] md:text-[16px] leading-[1.8] mb-6" 
+              <p className="font-sans font-light text-[14px] md:text-[16px] leading-[1.8] mb-4" 
                  style={{ color: "var(--text-main)" }}>
                 {item.desc}
               </p>

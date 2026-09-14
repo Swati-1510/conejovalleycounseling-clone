@@ -39,11 +39,11 @@ const IntroBlock = () => {
       </div>
 
       {/* Right Image Area */}
-      <div className="w-full lg:w-[31%] h-[50vh] lg:h-[86vh] flex">
+      <div className="w-full px-8 md:px-[6vw] lg:px-0 lg:w-[31%] h-[35vh] lg:h-[86vh] flex">
         <img 
           src="https://images.stockcake.com/public/a/1/8/a188ca19-1a92-4281-a0d8-edfeac01a528_large/balanced-stone-stack-stockcake.jpg" 
           alt="Balanced stone stack" 
-          className="w-full h-full object-cover object-center rounded-l-lg"
+          className="w-full h-full object-cover object-center rounded-lg lg:rounded-l-lg lg:rounded-r-none"
         />
       </div>
     </section>

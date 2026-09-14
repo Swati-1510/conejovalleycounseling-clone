@@ -1,20 +1,20 @@
 export default function Hero() {
   return (
-    <section className="flex flex-col md:flex-row overflow-hidden" 
+    <section className="grid grid-cols-[82%_18%] md:flex md:flex-row overflow-hidden gap-x-2 md:gap-x-0" 
       style={{ backgroundColor: "var(--bg-primary)", minHeight: "85vh" }}>
 
       {/* Left image - main hero image */}
-      <div className="flex flex-col w-full md:w-[34.5%] shrink-0 h-[45vh] md:h-[86vh]">
+      <div className="flex flex-col col-span-1 w-full md:w-[34.5%] shrink-0 h-[45vh] md:h-[86vh]">
         <div className="hidden md:block h-11" style={{ backgroundColor: "var(--bg-primary)" }} />
         <img
           src="/images/dr-maya-hero.jpg"
           alt="Dr. Maya Reynolds"
-          className="w-full h-full md:flex-1 object-cover object-top rounded-lg md:rounded-r-lg md:rounded-l-none"
+          className="w-full h-full md:flex-1 object-cover object-top rounded-r-lg md:rounded-l-none"
         />
       </div>
 
       {/* Center content */}
-      <div className="flex-1 flex flex-col px-8 md:pl-[6vw] lg:pl-[8vw] md:pr-27 pt-12 md:pt-11 pb-16 md:pb-4 order-first md:order-none">
+      <div className="col-span-2 flex-1 flex flex-col px-8 md:pl-[6vw] lg:pl-[8vw] md:pr-27 pt-12 md:pt-11 pb-16 md:pb-4 order-first md:order-none">
 
         {/* Eyebrow - sits at top */}
         <p className="text-[13px] md:text-[15px] font-normal leading-[1.8] tracking-[0.18em] uppercase mb-auto"
@@ -57,12 +57,12 @@ export default function Hero() {
       </div>
 
       {/* Right peeking image */}
-      <div className="flex flex-col w-full lg:w-48 xl:w-32 shrink-0 mt-8 lg:mt-0 h-[40vh] lg:h-auto">
+      <div className="flex flex-col col-span-1 w-full lg:w-48 xl:w-32 shrink-0 h-[45vh] md:h-[86vh] lg:h-auto">
         <div className="hidden lg:block h-[36%]" style={{ backgroundColor: "var(--bg-primary)" }} />
         <img
           src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
           alt="Sunlit neutral space"
-          className="w-full flex-1 object-cover object-center rounded-lg lg:rounded-l-lg lg:rounded-r-none"
+          className="w-full flex-1 object-cover object-center rounded-l-lg lg:rounded-r-none"
         />
       </div>
 
