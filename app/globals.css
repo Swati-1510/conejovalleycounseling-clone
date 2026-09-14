@@ -1,26 +1,37 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'PrintedMoments';
+  src: url('https://static1.squarespace.com/static/670423e106da6c036366fd10/t/67042f1ac94bbb494649b8e4/1728327450432/printedmoments-webfont.woff') format('woff');
+}
+
+@theme {
+  --font-sans: var(--font-jakarta);
+  --font-serif: var(--font-cormorant);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* New Brand Theme */
+  --bg-primary: #F8F6F2;
+  --bg-secondary: #EFECE6;
+  --bg-dark: #2C3531;
+  
+  --color-primary: #3B4E43;
+  --color-secondary: #8C6D58;
+  --color-accent: #8C6D58;
+  --color-accent-hover: #6B5242;
+
+  --text-primary: #2B2D2F;
+  --text-muted: #666A6D;
+  --text-light: #F8F6F2;
+  --border-color: #2B2D2F50;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  font-weight: 300;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
