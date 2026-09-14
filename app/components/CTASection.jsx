@@ -5,11 +5,11 @@ const CTASection = () => {
     <section className="w-full mt-12 md:mt-6 pt-4 md:pt-1 flex flex-col lg:flex-row justify-between items-stretch" style={{ backgroundColor: "var(--bg-secondary)" }}>
       
       {/* Left Edge Image */}
-      <div className="flex w-full lg:w-[14.1%] items-center justify-start lg:mt-48 lg:pr-[2vw] relative mb-12 lg:mb-0">
+      <div className="flex w-[50%] lg:w-[14.1%] items-center justify-start lg:mt-48 lg:pr-[2vw] relative mb-12 lg:mb-0">
         <img 
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5f4J47e3f4ryjg6cxXuofY_I1uEWf-UfVNwhwzBmX_Q&s=10" 
           alt="Minimalist botanical detail" 
-          className="w-full h-[25vh] md:h-[30vh] lg:h-[66vh] object-cover object-right lg:rounded-r-lg"
+          className="w-full h-[25vh] md:h-[30vh] lg:h-[66vh] object-cover object-right rounded-r-lg rounded-l-none"
         />
       </div>
 
@@ -52,11 +52,11 @@ const CTASection = () => {
       </div>
 
       {/* Right Edge Image */}
-      <div className="flex w-full lg:w-[34.2%] items-center justify-end relative mt-8 lg:mt-0">
+      <div className="flex w-[80%] ml-auto lg:w-[34.2%] items-center justify-end relative mt-8 lg:mt-0">
         <img 
           src="https://images.stockcake.com/public/9/8/b/98b62333-f47a-431a-90a7-fd8a5f1388bb_large/indoor-green-corner-stockcake.jpg" 
           alt="Indoor green corner" 
-          className="w-full h-[40vh] lg:h-[80vh] object-cover object-left lg:rounded-l-lg"
+          className="w-full h-[40vh] lg:h-[80vh] object-cover object-left rounded-l-lg rounded-r-none"
         />
       </div>
 

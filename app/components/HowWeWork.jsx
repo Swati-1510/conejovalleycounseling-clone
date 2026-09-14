@@ -23,7 +23,7 @@ const HowWeWork = () => {
           <img 
             src="https://thumbs.dreamstime.com/b/wooden-desk-sunlit-window-open-book-houseplants-shelves-books-warm-decor-cozy-home-study-reading-nook-interior-396691561.jpg" 
             alt="Desk workspace with laptop and notebook" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-lg"
           />
         </div>
 

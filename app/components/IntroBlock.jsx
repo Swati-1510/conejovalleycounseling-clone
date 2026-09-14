@@ -27,6 +27,15 @@ const IntroBlock = () => {
             </p>
           </div>
 
+          {/* Mobile Image (Between paragraphs) */}
+          <div className="flex md:hidden w-full h-[35vh]">
+            <img 
+              src="https://images.stockcake.com/public/a/1/8/a188ca19-1a92-4281-a0d8-edfeac01a528_large/balanced-stone-stack-stockcake.jpg" 
+              alt="Balanced stone stack" 
+              className="w-full h-full object-cover object-center rounded-lg"
+            />
+          </div>
+
           {/* Right Text Column */}
           <div className="flex flex-col justify-end">
             <p className="font-sans font-light text-[15px] md:text-[18px] leading-[1.6]"
@@ -38,8 +47,8 @@ const IntroBlock = () => {
         </div>
       </div>
 
-      {/* Right Image Area */}
-      <div className="w-full px-8 md:px-[6vw] lg:px-0 lg:w-[31%] h-[35vh] lg:h-[86vh] flex">
+      {/* Right/Bottom Image Area */}
+      <div className="hidden md:flex w-full px-8 md:px-[6vw] lg:px-0 lg:w-[31%] h-[35vh] lg:h-[86vh]">
         <img 
           src="https://images.stockcake.com/public/a/1/8/a188ca19-1a92-4281-a0d8-edfeac01a528_large/balanced-stone-stack-stockcake.jpg" 
           alt="Balanced stone stack" 

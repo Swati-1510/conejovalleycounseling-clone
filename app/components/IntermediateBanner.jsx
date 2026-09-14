@@ -5,11 +5,11 @@ const IntermediateBanner = () => {
     <section className="w-full pb-24 md:pb-32 pt-12 md:pt-20" style={{ backgroundColor: "var(--bg-primary)" }}>
       <div className="grid grid-cols-1 lg:grid-cols-[54fr_46fr] gap-10 lg:gap-16 items-center">
         {/* Left Image Area */}
-        <div className="w-full h-[50vh] lg:h-[70vh]">
+        <div className="w-full pl-4 md:pl-8 lg:pl-0 h-[50vh] lg:h-[70vh]">
           <img 
             src="https://static.vecteezy.com/system/resources/previews/065/941/093/large_2x/serene-beach-landscape-coastal-grass-ocean-waves-and-sandy-shores-a-tranquil-summer-seascape-evoking-peace-and-relaxation-per-free-photo.jpeg" 
             alt="Serene beach landscape" 
-            className="w-full h-full object-cover object-center lg:rounded-r-lg"
+            className="w-full h-full object-cover object-center rounded-l-lg rounded-r-none lg:rounded-l-none lg:rounded-r-lg"
           />
         </div>
 
